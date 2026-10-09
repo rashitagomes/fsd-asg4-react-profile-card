@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2ff; }
+.page { min-height: 100vh; display: grid; place-items: center; align-content: center; gap: 18px; }
+h1 { color: #1e293b; }
+.card { width: 320px; padding: 25px; text-align: center; background: white;
+  border-radius: 18px; box-shadow: 0 12px 30px rgba(0,0,0,.12); }
+.card img { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; }
+.card h2 { margin-bottom: 8px; color: #312e81; }
+.card p { color: #475569; line-height: 1.5; }
